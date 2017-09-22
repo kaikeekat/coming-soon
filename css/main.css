@@ -18,8 +18,8 @@ html {
 
 .me {
   position: relative;
-  height: 500px;
-  width: 500px;
+  height: 200px;
+  width: 200px;
 }
 
 .page-top {
@@ -29,6 +29,8 @@ html {
 @media only screen and (min-width: 60em) {
 
   .me {
-		overflow: hidden;
+		height: 500px;
+		width: 500px;
 	}
+
 }
